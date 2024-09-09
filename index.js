@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 
 // Apply CORS middleware
 app.use(cors({
-  origin: 'http://localhost:5173',  // Replace with your frontend URL
+  origin: 'https://portfolio-frontend-tau-six.vercel.app/',  // Replace with your frontend URL
   methods: 'GET,POST',
   allowedHeaders: 'Content-Type'
 }));
